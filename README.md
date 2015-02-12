@@ -24,9 +24,12 @@
 > LICENSE 版权信息
 
 ## 使用方法
+下载Monkey/chuohongbao.py，然后使用AndroidSDK的monkeyrunner命令运行此脚本，
 终端或命令行执行：
 ```
 ANDROID_SDK/tools/monkeyrunner chuohongbao.py
 ```
+运行后的效果是不停的点击屏幕，
+为了防止误点其它应用，请先在手机运行ChuoHongBaoDemo这个App
 * ANDROID_SDK为AndroidSdk根目录
 * monkeyrunner的简单用法可以参见[我的一篇文章](http://www.fatsoon.com/python/2014/07/27/use-monkey-runner.html)
