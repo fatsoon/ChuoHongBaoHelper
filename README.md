@@ -16,3 +16,9 @@
 > README.md 说明文档
 
 > LICENSE 版权信息
+
+## 使用方法
+```
+ANDROID_SDK/tools/monkeyrunner chuohongbao.py
+```
+* monkeyrunner的简单用法可以参见[我的一篇文章](http://www.fatsoon.com/python/2014/07/27/use-monkey-runner.html)
