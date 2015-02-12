@@ -24,12 +24,13 @@
 > LICENSE 版权信息
 
 ## 使用方法
-下载Monkey/chuohongbao.py，然后使用AndroidSDK的monkeyrunner命令运行此脚本，
+1. 修改`Monkey/chuohongbao.py`，将里面的`screen_width`，`screen_height`，改成你手机的具体数值，`touch_radius`的值越小，触摸点就约多，但是频率会降低。
+2. 使用AndroidSDK的monkeyrunner命令运行`chuohongbao.py`，
 终端或命令行执行：
 ```
 ANDROID_SDK/tools/monkeyrunner chuohongbao.py
 ```
-运行后的效果是不停的点击屏幕，
+> 运行后的效果是不停的点击屏幕，
 为了防止误点其它应用，请先在手机运行ChuoHongBaoDemo这个App
 * ANDROID_SDK为AndroidSdk根目录
 * monkeyrunner的简单用法可以参见[我的一篇文章](http://www.fatsoon.com/python/2014/07/27/use-monkey-runner.html)
