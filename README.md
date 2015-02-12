@@ -18,7 +18,9 @@
 > LICENSE 版权信息
 
 ## 使用方法
+终端或命令行执行：
 ```
 ANDROID_SDK/tools/monkeyrunner chuohongbao.py
 ```
+* ANDROID_SDK为AndroidSdk根目录
 * monkeyrunner的简单用法可以参见[我的一篇文章](http://www.fatsoon.com/python/2014/07/27/use-monkey-runner.html)
